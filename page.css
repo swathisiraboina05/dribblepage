@@ -1,0 +1,184 @@
+.bg-container {
+    background-color: #fceda2;
+    height: 100vh;
+    background-size: cover;
+}
+
+.main-heading {
+    font-family: "sans-serif";
+    color: #bd7728;
+    font-size: 40px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.main-heading-1 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #522e05;
+    font-size: 30px;
+    padding-left: 40px;
+}
+
+.para1 {
+    color: #bd7728;
+    padding-top: 100px;
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.para1-span {
+    text-decoration: underline;
+    padding-top: 550px;
+}
+
+.main-heading2 {
+    font-size: 20px;
+    padding: 40px;
+}
+
+.heading-signup {
+    font-weight: bold;
+    text-align: center;
+}
+
+.para-taken {
+    color: #d41977;
+    font-weight: bold;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.name-para {
+    font-size: 20px;
+    background-color: #beb6cc;
+    width: 150%;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 10px;
+    margin-right:70px;
+
+}
+
+.color {
+    color: #d41977;
+    background-color: pink;
+}
+
+.terms {
+    color: #8c74b5;
+    font-weight: bold;
+}
+
+.create-btn {
+    background-color: #d41977;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    width: 200px
+}
+
+/* page-2  */
+.page2-heading {
+    font-family: "sans-serif";
+    color: #d41977;
+    font-size: 30px;
+    padding: 40px;
+    font-weight: bold;
+}
+
+.page2-head2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page2-para {
+    text-align: center;
+}
+
+.head-add {
+    font-weight: bold;
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.btn-cam {
+    padding: 50px;
+    width: 130px;
+    border-radius: 80px;
+    margin-left: 10px;
+    border-style: dashed;
+}
+
+.para-img {
+    font-weight: bold;
+    margin-top: 30px;
+    border: 0px;
+}
+
+.img-con {
+    text-align: center;
+}
+
+.head-loc {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* PAGE 3 */
+.img3 {
+    width: 300px;
+}
+
+.img3-con {
+    padding: 10px;
+    border: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    margin: 20px;
+    text-align: center;
+}
+
+.img3-head {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* PAGE3 */
+.page3-head {
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.btn-finish {
+    text-align: center;
+}
+
+.page3-icon {
+    text-align: center;
+    padding: 20px;
+}
+
+.para-acc {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.page3-paras {
+    color: #7c8282;
+    font-weight: bold;
+    text-align: center;
+    padding: 5px;
+}
+
+.span {
+    color: #d41977;
+}

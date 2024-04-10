@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="page.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="sectionHome">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12 col-md-6">
+                    <div class="bg-container">
+                        <h1 class="main-heading">dribble</h1>
+                        <h1 class="main-heading-1">Discover the world's top <br />Designers and Creatives </h1>
+                        <div>
+                            <img src="https://cdn.elearningindustry.com/wp-content/uploads/2020/06/what-is-animation-based-learning.jpg" class=" w-100 p-2 mt-5 " alt="" />
+                        </div>
+                        <p class="para1">Art By <span class="para1-span">Peter Tarka</span> </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6">
+
+                    <h1 class="main-heading2"> Already a member? <a href="#">sign in</a></h1>
+                    <div class="page2-con ml-5 ">
+                        <h1 class="heading-signup">Sign up to Dribble</h1>
+                        <p class="para-taken">. Usnername has already been taken</p>
+                        <div class="d-flex flex-row ">
+                            <div class="mr-5 ml-2">
+                                <h3 class="name">Name</h3>
+                                <p class="name-para">John</p>
+                            </div>
+                            <div class="ml-5 ">
+                                <h3 class="name">Username</h3>
+                                <p class="name-para color">John</p>
+                            </div>
+                        </div>
+                        <div class="ml-2">
+                            <h3 class="name">Email</h3>
+                            <p class="name-para w-100">account@refero.design</p>
+                        </div>
+                        <div class="ml-2">
+                            <h3 class="name">Password</h3>
+                            <p class="name-para text-secondary w-100">6+characters</p>
+                        </div>
+                        <p class="text-secondary ml-2">
+                            Creating an account means you are okay with out<span class="terms"> Terms of Service Privacy Policy.</span>
+                        </p>
+                        <button class="create-btn onclick=" onclick="display('sectionProfile')">Create account</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="sectionProfile">
+        <h1 class="page2-heading">dribble</h1>
+        <div>
+            <h1 class="page2-head2">Welcome! Let's create your profile</h1>
+            <p class="page2-para">Let others get to know you better! you can do hese later </p>
+            <div class="d-flex flex-row img-con justify-content-center">
+                <div class="ml-5 mt-5 mb-5">
+                    <h1 class="head-add">Add an avatar</h1>
+                    <button class="btn-cam "><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-camera-fill" viewBox="0 0 16 16">
+                            <path d="M10.5 8.5a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0" />
+                            <path d="M2 4a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-1.172a2 2 0 0 1-1.414-.586l-.828-.828A2 2 0 0 0 9.172 2H6.828a2 2 0 0 0-1.414.586l-.828.828A2 2 0 0 1 3.172 4zm.5 2a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1m9 2.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0" />
+                        </svg></button>
+                </div>
+                <div class="mt-5 ml-5">
+                    <button class="para-img mb-2">Choose image</button>
+                    <p> >or choose one of our default</p>
+                </div>
+            </div>
+            <div class="ml-5 mt-3 text-center">
+                <h1 class="head-loc">Add Your Location</h1>
+                <p class="text-secondary">Enter a location</p>
+                <hr />
+            </div>
+            <button class="create-btn ml-5 mt-5" onclick="display('sectionOptions')">Next</button>
+
+        </div>
+    </div>
+    <div id="sectionOptions">
+        <div>
+            <h1 class="page2-heading">dribble
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-left icon" viewBox="0 0 16 16">
+                    <path d="M10 12.796V3.204L4.519 8zm-.659.753-5.48-4.796a1 1 0 0 1 0-1.506l5.48-4.796A1 1 0 0 1 11 3.204v9.592a1 1 0 0 1-1.659.753" />
+                </svg>
+            </h1>
+            <h1 class="head-add text-center">What brings you to dribble?</h1>
+
+            <p class="text-secondary text-center">
+                Select the options that best describe you.Don't worry, you can explore other options later.
+            </p>
+            <div class="d-flex flex-row justify-content-center">
+                <div class="img3-con">
+                    <img src="https://cdn.dribbble.com/users/255/screenshots/7801277/media/904ae0e3f3995c9ce33758dd06928406.png" class="img3" alt="" />
+                    <h1 class="img3-head">I'm a designer looking to share my work</h1>
+                </div>
+                <div class="img3-con">
+                    <img src="https://cdn.dribbble.com/users/255/screenshots/7861779/onboarding-hiring_2x.png" class="img3" alt="" />
+                    <h1 class="img3-head">I'm Looking to hire a designer</h1>
+                </div>
+                <div class="img3-con">
+                    <img src="https://cdn.dribbble.com/users/255/screenshots/7887117/onboaring-inspiration_2x.png" class="img3" alt="" />
+                    <h1 class="img3-head">I'm Looking for design inspiration</h1>
+                </div>
+            </div>
+            <div class="btn-finish">
+                <button class="create-btn ml-5 mt-5  " onclick="display('sectionEmail')">Finish</button>
+            </div>
+        </div>
+    </div>
+    <div id="sectionEmail">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand text-dark" href="#">dribble</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" href="#">Inspiration <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="#">Find Work</a>
+                    <a class="nav-link" href="#">Learn Designs</a>
+                    <a class="nav-link" href="#">Go Pro</a>
+                    <a class="nav-link" href="#">Hire Designers</a>
+
+                </div>
+            </div>
+        </nav>
+        <h1 class="page3-head">Please Verify Your email...</h1>
+        <div class="page3-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="56" height="56" fill="currentColor" class="bi bi-envelope-check " viewBox="0 0 16 16">
+                <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2zm3.708 6.208L1 11.105V5.383zM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2z" />
+                <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0m-1.993-1.679a.5.5 0 0 0-.686.172l-1.17 1.95-.547-.547a.5.5 0 0 0-.708.708l.774.773a.75.75 0 0 0 1.174-.144l1.335-2.226a.5.5 0 0 0-.172-.686" />
+            </svg>
+        </div>
+        <p class="page3-paras">Please verify your email address. We've sent a conformation email to:</p>
+        <p class="para-acc">account@redreo.design</p>
+        <p class="page3-paras">Click the confirmation link in that email to begin using Dribble.</p>
+        <p class="page3-paras">Don't receive the email?Check your spam folder it mmay have been caught by a filter.If you still don't see it. you can s<span class="span">resend the confirmation mail.</span> </p>
+        <button onclick="display('sectionHome')" class="m-3">back</button>
+    </div>
+</body>
+</html>
